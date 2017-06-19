@@ -15,7 +15,7 @@ public class WeatherChecker {
 	
 	@Given("^Open browser and goto google.com$")
 	public void Open_browser_and_goto_google_com() throws Throwable {
-	    System.setProperty("webdriver.chrome.driver", "D:\\SeleniumProjects\\WebDriver\\chromedriver_win32\\chromedriver.exe");
+	    System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.get("http://www.google.com");
 	    
